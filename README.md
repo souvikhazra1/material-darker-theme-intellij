@@ -1,4 +1,4 @@
-#Material Darker Theme
+# Material Darker Theme
 Material darker theme with higher contrast for Intellij based IDEs
 
 **Generate Build**
