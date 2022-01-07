@@ -1,0 +1,25 @@
+<idea-plugin>
+  <id>com.s2labs.my-material-dark-theme</id>
+  <name>Material Darker Theme</name>
+  <version>1.0</version>
+  <vendor email="souvik_hazra@outlook.com" url="http://www.s2labs.in">Souvik Hazra</vendor>
+
+  <description>Material darker theme with higher contrast</description>
+
+  <!-- please see https://plugins.jetbrains.com/docs/intellij/build-number-ranges.html for description -->
+  <idea-version since-build="173.0"/>
+
+  <!-- please see https://plugins.jetbrains.com/docs/intellij/plugin-compatibility.html
+       on how to target different products -->
+  <depends>com.intellij.modules.platform</depends>
+
+  <extensions defaultExtensionNs="com.intellij">
+    <!-- Add your extensions here -->
+    <themeProvider id="67d81081-0d37-4ca2-bab3-7f19986368ff" path="/material_darker_theme.theme.json"/>
+  </extensions>
+
+  <actions>
+    <!-- Add your actions here -->
+  </actions>
+
+</idea-plugin>

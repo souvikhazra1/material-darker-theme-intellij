@@ -1,0 +1,55 @@
+{
+  "name": "Material Darker Theme",
+  "dark": true,
+  "author": "Souvik Hazra",
+  "editorScheme": "/material_darker_theme.xml",
+  "colors": {
+    "background": "#1b1b1b",
+    "backgroundLight": "#2b2b2b",
+    "backgroundDarker": "#151515",
+    "white": "#ffffff",
+    "accent": "#ff9800",
+    "accentDarker": "#794600",
+    "button": "#323232"
+  },
+  "ui": {
+    "*": {
+      "background": "background",
+      "selectionBackground": "backgroundLight",
+      "selectionInactiveBackground": "backgroundLight",
+      "selectionForeground": "white",
+      "selectionInactiveForeground": "white"
+    },
+    "Tree.background": "backgroundDarker",
+    "ToolWindow.Header.background": "backgroundLight",
+    "ToolWindow.Header.inactiveBackground": "background",
+    "Popup.Header.activeBackground": "background",
+    "Borders.ContrastBorderColor": "background",
+    "StatusBar.borderColor": "background",
+    "Button": {
+      "default.startBackground": "button",
+      "default.endBackground": "button",
+      "default.startBorderColor": "button",
+      "default.endBorderColor": "button",
+      "default.foreground": "white",
+      "default.focusColor": "accentDarker",
+      "default.focusedBorderColor": "accentDarker",
+
+      "startBackground": "button",
+      "endBackground": "button",
+      "startBorderColor": "button",
+      "endBorderColor": "button",
+      "focusedBorderColor": "accentDarker",
+      "disabledBorderColor": "background",
+
+      "arc": 10
+    },
+    "Component.focusColor": "accentDarker",
+    "Component.focusedBorderColor": "accentDarker",
+    "Link.activeForeground": "accent",
+    "Link.hoverForeground": "accent",
+    "TabbedPane.underlineColor": "accent",
+    "CompletionPopup.selectionBackground": "#000000",
+    "EditorTabs.tabInsets": "-8,10,-8,10"
+  }
+}
